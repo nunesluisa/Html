@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
         <title> Portfólio </title>
     </head>
     <body>
@@ -65,6 +67,7 @@
                         <th> Curso </th>
                         <th> Carga Horária </th>
                     </tr>
+                    </thead>
                     <tbody>
                         <tr>
                             <td> Curso em Vídeo </td>
@@ -81,18 +84,18 @@
                 </table>
             </section>
             <section id="Contato">
-                    <h> Contato</h>
+                    <h2> Contato</h2>
                     <p> Estou aberta a novas conexões e oportunidades na área da tecnologia. Entre em contato comigo nas minhas redes sociais abaixo</p>
                     <a href='https://github.com/nunesluisa' target='_blank'>Meu GitHub</a>
                     <br>
                     <a href='https://br.linkedin.com/in/lu%C3%ADsanunesdev' target= '_blank'> Meu Linkedin</a>
                     <form>
                         <label for='nome'> Nome: </label>
-                        <input type='text'id='nome'>
+                        <input type='text'id='nome' name="nome" required placeholder="Digite seu nome">
                         <label for='email'> email: </label>
-                        <input type 'email' id='email'>
+                        <input type 'email' id='email' name="email" required placeholder="Digite seu E-mail">
                         <label for= 'mensagem'> Mensagem: </label>
-                        <textarea id= 'mensagem'> </textarea>
+                        <textarea id= 'mensagem' name="mensagem" required placeholder="Digite sua mensagem"> </textarea>
                         <button type="submit"> Enviar: </button>
                     </form>
             </section>
